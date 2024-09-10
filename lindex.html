@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <!-- Meta etiquetas básicas para el correcto funcionamiento y adaptación en dispositivos móviles -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Enlace a la CDN de Tailwind CSS para utilizar sus clases directamente -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet" />
+
+    <!-- Título de la página -->
+    <title>Equipos de Fórmula 1</title>
+  </head>
+
+  <body class="bg-gray-100 text-gray-800">
+    <!-- HEADER: Cabecera del sitio con un menú de navegación -->
+    <!-- Esta sección contiene el logotipo y el menú de navegación principal -->
+    <header class="bg-white shadow">
+      <div class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
+        <!-- Logo -->
+        <div class="text-2xl font-bold text-blue-600">F1 Teams</div>
+
+        <!-- Menú de navegación -->
+        <nav class="space-x-4">
+          <a href="#" class="text-gray-700 hover:text-blue-600">Inicio</a>
+          <a href="#" class="text-gray-700 hover:text-blue-600">Equipos</a>
+          <a href="#" class="text-gray-700 hover:text-blue-600">Noticias</a>
+          <a href="#" class="text-gray-700 hover:text-blue-600">Contacto</a>
+        </nav>
+      </div>
+    </header>
+
+    <!-- MAIN: Sección principal con un grid adaptable -->
+    <!-- Contiene los artículos de los equipos, con diseño flexible para dispositivos móviles y escritorio -->
+    <main class="max-w-7xl mx-auto p-6">
+      <h1 class="text-3xl font-bold mb-6">Equipos de Fórmula 1</h1>
+      
+      <!-- Grid adaptable para mostrar equipos -->
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+        <!-- Artículo 1 -->
+        <article class="bg-white shadow rounded-lg p-4">
+          <h2 class="text-xl font-semibold text-blue-600 mb-2">Mercedes AMG Petronas</h2>
+          <p>Mercedes es uno de los equipos más dominantes de la Fórmula 1 en la última década.</p>
+        </article>
+
+        <!-- Artículo 2 -->
+        <article class="bg-white shadow rounded-lg p-4">
+          <h2 class="text-xl font-semibold text-blue-600 mb-2">Scuderia Ferrari</h2>
+          <p>Ferrari es el equipo más histórico de la F1, con múltiples campeonatos mundiales.</p>
+        </article>
+
+        <!-- Artículo 3 -->
+        <article class="bg-white shadow rounded-lg p-4">
+          <h2 class="text-xl font-semibold text-blue-600 mb-2">Red Bull Racing</h2>
+          <p>Red Bull ha sido un contendiente fuerte, ganando campeonatos en los últimos años.</p>
+        </article>
+
+        <!-- Artículo 4 -->
+        <article class="bg-white shadow rounded-lg p-4">
+          <h2 class="text-xl font-semibold text-blue-600 mb-2">McLaren</h2>
+          <p>McLaren es un equipo icónico que siempre busca regresar a la cima.</p>
+        </article>
+
+        <!-- Artículo 5 -->
+        <article class="bg-white shadow rounded-lg p-4">
+          <h2 class="text-xl font-semibold text-blue-600 mb-2">Alpine</h2>
+          <p>Alpine es un equipo emergente que busca establecerse entre los grandes.</p>
+        </article>
+
+        <!-- Artículo 6 -->
+        <article class="bg-white shadow rounded-lg p-4">
+          <h2 class="text-xl font-semibold text-blue-600 mb-2">Aston Martin</h2>
+          <p>Aston Martin es un equipo de lujo que espera brillar en la Fórmula 1.</p>
+        </article>
+      </div>
+    </main>
+
+    <!-- FOOTER: Pie de página con información básica -->
+    <!-- Contiene enlaces y derechos de autor -->
+    <footer class="bg-gray-800 text-white py-4">
+      <div class="max-w-7xl mx-auto px-4 flex justify-between items-center">
+        <!-- Información de derechos de autor -->
+        <p>&copy; 2024 Equipos F1. Todos los derechos reservados.</p>
+
+        <!-- Enlaces a redes sociales -->
+        <nav class="space-x-4">
+          <a href="#" class="hover:text-blue-400">Facebook</a>
+          <a href="#" class="hover:text-blue-400">Twitter</a>
+          <a href="#" class="hover:text-blue-400">Instagram</a>
+        </nav>
+      </div>
+    </footer>
+  </body>
+</html>
